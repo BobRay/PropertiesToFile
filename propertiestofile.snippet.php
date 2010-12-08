@@ -45,13 +45,13 @@ if (empty($header)) {
 $package = $modx->getOption('packageName',$sp);
 $elementName = $modx->getOption('elementName',$sp);
 if (empty($elementName)) {
-   $element = $package;
+   $element = $packageName;
 }
 $elementId = $modx->getOption('elementId',$sp);
 $subPackageName = $modx->getOption('subPackageName',$sp);
 $header = str_replace('[[+subPackageName]]',$subPackageName,$header);
 $header = str_replace('[[+package]]',$package,$header);
-$header = str_replace('[[+elementName]]',$element,$header);
+$header = str_replace('[[+elementName]]',$elementName,$header);
 
 $output = $header;
 if (! is_numeric($elementId)) {
