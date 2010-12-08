@@ -21,6 +21,8 @@ Typical usage:
 
         &fileName = `properties.formit.php`
 
+        &path = `path/to/directory/`
+
         &elementName = `FormIt`
 
         &elementId = `16`
