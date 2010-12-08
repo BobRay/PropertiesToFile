@@ -13,11 +13,18 @@ of an element to be placed in a transport package in the Manager rather than in 
 
 Typical usage:
 
-\t[[!PropertiesToFile?`
-\t\t&packageName = `FormIt`
-\t\t&subPackageName = `build`
-\t\t&fileName = `properties.formit.php`
-\t\t&elementName = `FormIt`
-\t\t&elementId = `16`
-\t\t&type = `modSnippet`
-\t]]
+    [[!PropertiesToFile?`
+
+        &packageName = `FormIt`
+
+        &subPackageName = `build`
+
+        &fileName = `properties.formit.php`
+
+        &elementName = `FormIt`
+
+        &elementId = `16`
+
+        &type = `modSnippet`
+
+    ]]
